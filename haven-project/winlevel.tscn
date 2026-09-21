@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bx5hvyxc2jxe4"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3rxia"]
+load_path = "res://.godot/imported/Untitled design-5.png-5ba972493de20e6633b39f9448ec434d.ctex"
+
+[node name="Node" type="Node" unique_id=1622900067]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1287001073]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("CompressedTexture2D_3rxia")
+expand_mode = 1

@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://da6ccwdcd28i1"]
+
+[ext_resource type="Texture2D" uid="uid://cdb8h4l20f05o" path="res://Idle.png" id="1_iw677"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hdsww"]
+radius = 23.086792
+
+[node name="Spikes" type="Area2D" unique_id=313547870]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=752903940]
+position = Vector2(62, 63)
+shape = SubResource("CircleShape2D_hdsww")
+
+[node name="spikes2d" type="Sprite2D" parent="." unique_id=1292682992]
+
+[node name="Idle" type="Sprite2D" parent="." unique_id=1265725192]
+texture_filter = 1
+position = Vector2(63, 45.000004)
+scale = Vector2(2.5, 3.3125)
+texture = ExtResource("1_iw677")

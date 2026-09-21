@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://det5neu8o88el"]
+
+[ext_resource type="Texture2D" uid="uid://b768nyomuhy7m" path="res://Jump2 (32x32).png" id="1_jgth6"]
+[ext_resource type="Script" uid="uid://1ymm8gpf2xct" path="res://scene/villain_2.gd" id="1_q66n4"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_apo8w"]
+radius = 19.0
+height = 46.0
+
+[node name="CharacterBody2D2" type="CharacterBody2D" unique_id=1221272135]
+script = ExtResource("1_q66n4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1773126598]
+texture_filter = 1
+position = Vector2(801, 400)
+scale = Vector2(1.53125, 1.5)
+texture = ExtResource("1_jgth6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2077833232]
+position = Vector2(800, 403)
+shape = SubResource("CapsuleShape2D_apo8w")
